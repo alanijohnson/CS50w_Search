@@ -1,0 +1,38 @@
+#menubar {
+    margin: 0 px;
+    padding: 0 px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4d4d4d;
+}
+
+#menubar > li {
+    float: left;
+}
+
+li > a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+}
+
+li > a:hover:not(.active) {
+    background-color: #000000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.form {
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px
+}
+
+

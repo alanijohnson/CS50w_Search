@@ -1,0 +1,32 @@
+<!-- Regualar Search: q=? -->
+<!-- Image Search: https://www.google.com/search?tbm=isch&q=chrome -->
+<!-- Advanced Search: -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id"menu">
+            <ul id="menubar">
+                <li style="float:right"><a href="./ImageSearch.html">Image Search</a></li>
+                <li style="float:right"><a class="active" href="./advancedSearch.html">Advanced Search</a></li>
+                <li style="float:right"><a  href="./index.html">Quick Search</a></li>
+            </ul>
+        </div>
+        <div class="form"> <form action="https://google.com/search">
+            <div> <label for="all words">All these words</label>
+                  <input id="all words" type="text" name="as_q"> </div>
+            <div> <label for="exact phrase">Exact Phrase</label>
+                <input id="exact phrase" type="text" name="as_epq"> </div>
+            <div> <label for="any words">Any of these Words</label>
+                <input id="any words" type="text" name="as_oq"> </div>
+            <div> <label for="none words">None of these Words</label>
+                <input id="none words" type="text" name="as_eq"> </div>
+            <div><input type="submit" value="Google Advanced Search"> </div>
+        </form> </div>
+    </body>
+</html>
+
